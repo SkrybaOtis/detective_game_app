@@ -79,7 +79,7 @@ class OpeningEpisodeScreen extends ConsumerWidget {
                           context,
                           icon: Icons.location_on,
                           title: 'Location',
-                          content: '${episode.localization.city}'
+                          content: episode.localization.city
                               // '${episode.localization.city}, ${episode.localization.region}',
                         ),
                         // const SizedBox(height: AppSizes.paddingM),
